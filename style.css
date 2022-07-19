@@ -1,0 +1,32 @@
+*{
+
+}
+
+body{
+   background-color: black;
+   color: green; 
+}
+.botdisplay{
+    border: white solid 2px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+}
+
+/* profile data*/
+.botprofile{
+    width:fit-content;
+    background-color: black;
+    border: green solid 2px;
+    margin: 14px;
+    padding: 10px;
+}
+.colorblock{
+    width:fit-content;
+    height: auto;
+    display: block;
+    background-color: red;
+    min-height: 16px;
+    min-width: 16px;
+    border: green 2px solid;
+}
